@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+body,h1,h5, #contact {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body, html {
+    height: 100%
+}
+
+.bgimg {
+  background-image: url('/assets/real_estate_lead_generation_header.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+form input {
+    margin: 2px 0px;
+}
+
+#contactBtn {
+    border-radius: 26px;
+    background-color: #1C75B8;
+    color:white;
+}
+
+.w3-bar-item img {
+    max-width: 20%;
+}

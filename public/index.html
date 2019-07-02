@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<title>AgentZip, Inc. Real Estate Buyer and Seller Leads</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./styles.css">
+<body>
+
+<div class="bgimg w3-display-container w3-text-black">
+  <div class="w3-display-middle w3-jumbo">
+  </div>
+  <div class="w3-display-bottommiddle w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button" id="contactBtn">Contact Support</button></p>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Support Ticket</h1>
+    </div>
+    <div class="w3-container">
+      <p>We thank you for you patience. Please fill out a support ticket and our team will get back to your shortly</p>
+      <form>
+        <input id="nameInput" class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name">
+        <input id="emailInput" class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="Email">
+        <input id="phoneInput" class="w3-input w3-padding-16 w3-border" type="number" placeholder="Phone" required name="Phone">
+        <input id="messageInput" class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message">
+        <button id="formSubmit" class="w3-button" type="submit">Submit Ticket</button></p>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
+
