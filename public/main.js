@@ -26,5 +26,8 @@ btn.addEventListener('click', (e) => {
             },
             body: JSON.stringify(ticket),
         }
-    fetch('/ticket', options);  
+    fetch('/ticket', options);
+    
+    alert('Thank you for submitting a ticket');
+    document.getElementById('contact').style.display='none'
 });
